@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   My Pets | Isaac
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+   body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    h1 {
+      color: #f5c518;
+      margin-bottom: 2rem;
+    }
+    .pet-img {
+      max-height: 300px;
+      object-fit: contain;
+      border-radius: 10px;
+      margin-bottom: 0.5rem;
+    }
+    .pet-col {
+      margin-bottom: 2rem;
+    }
+    .navbar, footer {
+      background-color: #111;
+    }
+    .navbar-brand, .nav-link {
+      color: #f5c518 !important;
+    }
+    .nav-link.active, .nav-link:hover {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    footer {
+      color: #f5c518;
+    }
+  </style>
+ </head>
+ <body>
+  <header>
+   <nav class="navbar navbar-expand-lg">
+    <div class="container">
+     <a class="navbar-brand" href="#">
+      Isaac
+     </a>
+     <button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+      <span class="navbar-toggler-icon bg-light">
+      </span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+       <li class="nav-item">
+        <a class="nav-link" href="index.html">
+         Home
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="about.html">
+         About
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="downloads.html">
+         Downloads
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="contact.html">
+         Contact
+        </a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link active" href="mypets.html">
+         My Pets
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <main class="container py-5">
+   <h1 class="text-center">
+    My Pets
+   </h1>
+   <div class="row text-center">
+    <div class="col-md-4 pet-col">
+     <img alt="Fat Fat" class="img-fluid pet-img" src="pets/Fat Fat.jpg"/>
+     <h5>
+      Fat Fat
+     </h5>
+    </div>
+    <div class="col-md-4 pet-col">
+     <img alt="Elby" class="img-fluid pet-img" src="pets/Elby.jpg"/>
+     <h5>
+      Elby
+     </h5>
+    </div>
+    <div class="col-md-4 pet-col">
+     <img alt="Taco" class="img-fluid pet-img" src="pets/Taco.jpg"/>
+     <h5>
+      Taco
+     </h5>
+    </div>
+    <div class="col-md-4 pet-col">
+     <img alt="Gizmo" class="img-fluid pet-img" src="pets/Gizmo.jpg"/>
+     <h5>
+      Gizmo
+     </h5>
+    </div>
+    <div class="col-md-4 pet-col">
+     <img alt="Percy" class="img-fluid pet-img" src="pets/Percy.jpg"/>
+     <h5>
+      Percy
+     </h5>
+    </div>
+    <div class="col-md-4 pet-col">
+     <img alt="Gilbert" class="img-fluid pet-img" src="pets/Gilbert.jpg"/>
+     <h5>
+      Gilbert
+     </h5>
+    </div>
+   </div>
+  </main>
+  <footer class="py-4 text-center">
+   <div class="container">
+    <p class="mb-0">
+     © 2025 Isaac. All rights reserved.
+    </p>
+   </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+  </script>
+ </body>
+</html>
